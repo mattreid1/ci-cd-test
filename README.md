@@ -1,6 +1,12 @@
-# ci-cd-test
+# CI/CD GCP Cloud Build test
 
-## Project setup
+This repo is for testing [Google Cloud Build](https://cloud.google.com/cloud-build/). Commits to this repo in the src/ and tests/ directories on the master branch will cause Cloud Build to build and deploy this Vue.js app to Firebase Hosting at [this](https://ci-cd-test-91831.web.app/) address.
+
+------------
+
+Vue.js setup
+
+### Project setup
 ```
 npm install
 ```
